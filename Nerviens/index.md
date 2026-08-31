@@ -8,7 +8,6 @@ title: Bienvenue sur mes cours en ligne
 
 ### 🟥 [Première NSI ](./cours_premiere/premiere.md)
 
-### 🟦 [Terminale NSI](./cours_terminale/terminale.md)
 
 
 
@@ -18,6 +17,9 @@ title: Bienvenue sur mes cours en ligne
 - [France IOI](https://www.france-ioi.org/index.html) : Différentes ressources pour apprendre ou réapprendre certaines notions de SNT ou NSI.
 
 <!--  
+
+
+### 🟦 [Terminale NSI](./cours_terminale/terminale.md)
  
 ## 🎄 Calendrier de l'Avent du code 🎁
 

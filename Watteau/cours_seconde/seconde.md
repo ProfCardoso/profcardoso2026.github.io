@@ -6,30 +6,7 @@ title: Cours de Seconde SNT
 
 <link rel="stylesheet" href="../assets/style.css" />
 
-<!-- 
 
-
-## Thème 2 : Le Web
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="web/web.html">Le Web</a></h3>
-      <p>Découverte du Web</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
----
-
--->
 
 ## Thème 1 : Les réseaux sociaux
 
@@ -58,6 +35,8 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+
+<!-- 
 
 ## Thème 2 : Internet
 
@@ -161,7 +140,7 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
-## Thème 6 : Les données structurées et leur traitement
+## Thème 7 : Localisation
 
 <div class="cours-section">
   <div class="boites-lecons">
@@ -172,64 +151,8 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+---
 
-<!-- 
-## Thème 4 : Les données structurées et leur traitement
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 5 : Localisation, cartographie et mobilité
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 6 : Informatique embarquée et objet connectés
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-
--->
 ---
 
 ### Python
@@ -270,6 +193,8 @@ title: Cours de Seconde SNT
 Vous pouvez retrouver les versions dématérialisées ici : [Documents](./document_seconde/document_seconde.html)
 
 ---
+
+-->
 
 Le bulletin officiel est trouvable ici : [BO SNT](BO_SNT.pdf)
 

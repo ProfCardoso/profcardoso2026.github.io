@@ -17,6 +17,7 @@ title: Cours de Première NSI
       <h3> Ecrire du code</h3>
     </a>
 
+<!-- 
     <a class="boite" href="./intro_python/variable_type.html">
       <h3> Variables et types des objets</h3>
     </a>
@@ -44,9 +45,15 @@ title: Cours de Première NSI
     <a class="boite-tp" href="./intro_python/tp_pyrate.html">
       <h3> Tp Py-Rates</h3>
     </a>
+    
+-->
 
   </div>
 </div>
+
+
+
+<!-- 
 
 
 ## Thème 2 : Représentation des nombres
@@ -300,175 +307,6 @@ title: Cours de Première NSI
   </div>
 </div>
 
-<!-- 
-
-
-
-
-## Thème 7 : Encodage des caractères
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-
-
-## Thème 9 : Les tuples
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 10 : Les dictionnaires
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 11 : Architecture d'un ordinateur
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 12 : Données en table
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 13 : Compléxité et correction d'un algorithme
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 14 : Les réseaux
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 15 : Le Web
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 16 : Algorithmes gloutons
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
--->
-
 ---
 
 ## Projet 1 : Initialisation à Python
@@ -545,6 +383,10 @@ title: Cours de Première NSI
 
   </div>
 </div>
+
+
+-->
+
 
 ---
 
