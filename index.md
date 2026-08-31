@@ -2,7 +2,7 @@
 title: Bienvenue sur mes cours en ligne
 ---
 
-<link rel="stylesheet" href="../assets/style.css" />
+<link rel="stylesheet" href="./Nerviens/assets/style.css" />
 
 
 # 👩‍🏫 Mes cours en ligne
@@ -28,5 +28,5 @@ Bienvenue sur mon site dédié à l'enseignement de la NSI et SNT. Vous trouvere
 </div>
 
 ## ✉️ Me contacter
-Si vous avez des questions, n'hésitez pas à me contacter : Mathieu.Cardoso@ac-lille.fr
+Si vous avez des questions, n'hésitez pas à me contacter sur Pronote ou sur mon adresse mail : Mathieu.Cardoso@ac-lille.fr
 

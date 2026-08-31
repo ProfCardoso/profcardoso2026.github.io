@@ -1,0 +1,125 @@
+/* style.css */
+
+/* boite */
+
+.boites-lecons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boite {
+  flex: 1 1 300px;
+  border: 2px solid #007ACC;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.boite-tp {
+  flex: 1 1 300px;
+  border: 2px solid #00cc14;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.boite-bonus {
+  flex: 1 1 300px;
+  border: 2px solid #cccc00;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.boite-projet {
+  flex: 1 1 300px;
+  border: 2px solid #cc0000;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.boite:hover {
+  transform: scale(1.02);
+  background-color: #e6f2ff;
+}
+
+.boite-tp:hover {
+  transform: scale(1.02);
+  background-color: #e6f2ff;
+}
+
+.boite-bonus:hover {
+  transform: scale(1.02);
+  background-color: #e6f2ff;
+}
+.boite-projet:hover {
+  transform: scale(1.02);
+  background-color: #e6f2ff;
+}
+.boite h3 {
+  margin-top: 0;
+}
+
+.boite-tp h3 {
+  margin-top: 0;
+}
+
+.boite-bonus h3 {
+  margin-top: 0;
+}
+.boite-projet h3 {
+  margin-top: 0;
+}
+
+.boites-lecons .boite {
+  text-decoration: none;
+  color: #007ACC;
+}
+
+.boites-lecons .boite-tp {
+  text-decoration: none;
+  color: #00cc14;
+}
+
+.boites-lecons .boite-bonus {
+  text-decoration: none;
+  color: #cccc00;
+}
+.boites-lecons .boite-projet {
+  text-decoration: none;
+  color: #cc0000;
+}
+
+
+/* image */
+
+img {
+  display: block;      /* transforme l’image en bloc */
+  margin: 0 auto;      /* centre l’image dans son conteneur */
+}
+
+
+/* exercice */
+
+.exercice {
+  border: 2px solid #007acc;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f8faff;
+  margin: 20px 0;
+}
+.exercice button:hover {
+  background-color: #005fa3;
+}
+
+/* body */
+
+.markdown-body {
+  font-size: 18px;
+}
