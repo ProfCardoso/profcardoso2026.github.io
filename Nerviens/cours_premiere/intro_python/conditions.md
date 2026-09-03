@@ -2,6 +2,9 @@
 title: Initialisation à Python
 ---
 
+
+<link rel="stylesheet" href="../../assets/style.css" />
+
 # Les Conditions
 
 ## Un peu d'histoire
@@ -166,7 +169,7 @@ else:
 >
 > - si elle est multiple de 4 mais pas multiple de 100,
 > - ou si elle est multiple de 400.
-
+>
 > 💻 A faire : Écrire un code qui :
 > - prend un entier correspondant à une année dans la variable `annee`,
 > - test si l'année est bissextile,

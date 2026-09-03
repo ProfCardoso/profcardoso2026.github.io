@@ -2,6 +2,9 @@
 title: Initialisation à Python
 ---
 
+
+<link rel="stylesheet" href="../../assets/style.css" />
+
 # Les Conditions
 
 ## Un peu d'histoire
@@ -154,9 +157,9 @@ else:
     print('valeur plus grande que 3')
 ```
 >
-> 1) Expliquer pourquoi le programme ne va pas donner des résultats cohérents.
+> 1) 🖋️ Expliquer pourquoi le programme ne va pas donner des résultats cohérents.
 >
-> 2) Proposer une version corrigée de ce code.
+> 2) 💻 Proposer une version corrigée de ce code.
 >
 > #### Application IV : Années bissextiles
 >
@@ -166,8 +169,8 @@ else:
 >
 > - si elle est multiple de 4 mais pas multiple de 100,
 > - ou si elle est multiple de 400.
-
-> A faire : Écrire un code qui :
+>
+> 💻 A faire : Écrire un code qui :
 > - prend un entier correspondant à une année dans la variable `annee`,
 > - test si l'année est bissextile,
 > - affiche `True` si l'année est bissextile ou `False` sinon.

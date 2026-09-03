@@ -5,7 +5,7 @@ title: Initialisation à Python
 # Opérateurs
 
 
-<link rel="stylesheet" href="../assets/style.css" />
+<link rel="stylesheet" href="../../assets/style.css" />
 
 
 ## Comprendre les opérateurs
