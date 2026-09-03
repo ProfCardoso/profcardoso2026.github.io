@@ -13,18 +13,20 @@ title: Initialisation à Python
 
 Dans un programme, pour les variables, on distingue :
 
-- L'affectation d'une valeur à une variable ;
-- L'utilisation de la variable.
+- L'**affectation** d'une valeur à une variable ;
+- L'**utilisation** de la variable.  
+
 L'affectation se fait à l'aide du signe `=` . Les étapes sont les suivantes :
 
 1) Le code à droite du signe `=` est évalué.  
 2) Le résultat est créé en mémoire.  
 3) Le nom placé à gauche du signe `=` est associé à cette mémoire.  
+
 Lors de l'affectation, si la variables n'existait pas, elle est créée.  
 
-### Application
+### Applications
 
-<u>Sur feuille :</u> Pour chaque programme ci-dessous, indiquer les valeurs des variables a, b et r en fin d'exécution.
+🖋️ <u>Sur feuille :</u> Pour chaque programme ci-dessous, indiquer les valeurs des variables <code>a</code>, <code>b</code> et <code>r</code> en fin d'exécution.
 
 🔾 Programme 1 :
 
@@ -73,32 +75,13 @@ a = 4
 r = r * a
 ```
 
-<u>Sur l'ordinateur :</u> avec Thonny :
+💻 <u>Sur l'ordinateur :</u> 
 
-- lancer le programme en mode débogage  (Ctrl+F5),
-- avancer pas à pas  (F7),
+- lancer le programme en **mode débogage**  (Ctrl+F5),
+- avancer **pas à pas**  (F7),
 - vérifier vos résultats.
 
 ## Les types d'objets
-
-### A faire
-
-Le langage python dispose de la fonction `type(...)` qui permet de connaitre le type du contenu d'une variable.
-
-Copier le code ci-dessous dans Thonny.
-
-```python
-# Programme principal
-pi = 3.1416
-rayon = 5
-phrase = "Bonjour à tous"
-prenom = "Jean"
-test_lecture = True
-liste_prenoms = ["Anne", "Bernard", "Carole"]
-```
-Faire la liste des types d'objets.
-
-### A connaître : les types de base
 
 Les types d'objets avec lesquels nous travaillerons cette année sont :
 
@@ -109,6 +92,23 @@ Les types d'objets avec lesquels nous travaillerons cette année sont :
 🔾 `list` pour les listes ;  
 🔾 `tuple` pour les tuples ;  
 🔾 `dict` pour les dictionnaires.  
+
+### Applications
+
+Le langage python dispose de la fonction `type(...)` qui permet de connaitre le type du contenu d'une variable.
+
+💻 Copier le code ci-dessous dans Thonny.
+
+```python
+# Programme principal
+pi = 3.1416
+rayon = 5
+phrase = "Bonjour à tous"
+prenom = "Jean"
+test_lecture = True
+liste_prenoms = ["Anne", "Bernard", "Carole"]
+```
+🖋️ Faire la liste des types d'objets de chacune des variables précédentes.
 
 
 ## Obtenir un objet d'un type donné à partir d'un objet d'un autre type
@@ -123,8 +123,9 @@ En python, pour chaque type d'objet, il existe une fonction qui permet de créer
 - Pour les booléen, la fonction est `bool(...)`
 ...
 
-**Exemples**  
-Tester le code suivant dans Thonny.
+**Exemples** 
+
+💻 Tester le code suivant dans Thonny.
 
 ```python
 # Programme principal
@@ -134,13 +135,15 @@ b = int(pi)
 c = bool(pi)
 ```
 
+🖋️ Que renvoie les variables `a`, `b` et `c` ? Quelles sont leur type ?
+
 ### Applications
 
-<u>Sur feuille :</u> proposer les instructions qui permettent :
+🖋️ <u>Sur feuille :</u> proposer les instructions python qui permettent :
 
 - de transformer "8" en un entier.
 - de transformer 5.8 en un entier. Le résultat est-il l'entier 5 ou l'entier 6 ?
 - de transformer 9 en "9".
 - de transformer 3.14 en "3.14"
 
-<u>Sur ordinateur :</u> Tester vos propositions.
+💻 <u>Sur ordinateur :</u> Tester vos propositions.

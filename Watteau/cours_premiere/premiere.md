@@ -16,8 +16,7 @@ title: Cours de Première NSI
     <a class="boite" href="./intro_python/ecrire_code.html">
       <h3> Ecrire du code</h3>
     </a>
-
-<!-- 
+    
     <a class="boite" href="./intro_python/variable_type.html">
       <h3> Variables et types des objets</h3>
     </a>
@@ -45,8 +44,6 @@ title: Cours de Première NSI
     <a class="boite-tp" href="./intro_python/tp_pyrate.html">
       <h3> Tp Py-Rates</h3>
     </a>
-    
--->
 
   </div>
 </div>
@@ -384,10 +381,6 @@ title: Cours de Première NSI
   </div>
 </div>
 
-
--->
-
-
 ---
 
 ## ⭐ Bonus
@@ -403,6 +396,11 @@ title: Cours de Première NSI
 
   </div>
 </div>
+
+-->
+
+
+
 ---
 
 Le bulletin officiel est trouvable ici : [BO NSI Première](BO_PREM.pdf)
