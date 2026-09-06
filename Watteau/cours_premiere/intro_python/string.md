@@ -2,6 +2,8 @@
 title: Initialisation à Python
 ---
 
+<link rel="stylesheet" href="../../assets/style.css" />
+
 # Les chaines de caractères
 
 Les chaines de caractères sont des séquences : elles sont ordonnées et itérables.
