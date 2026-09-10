@@ -49,14 +49,12 @@ prénom = "Hector"
 age = 16
 phrase = ...  # "Bonjour. Je m'appelle Hector et j'ai 16 ans !"
 ```
-
 ### Application IV
 
-1) Indiquer comment on obtient le nombre de caractères d'une chaine de caractères.
+1) Chercher comment on obtient le nombre de caractères d'une chaine de caractères.
 
-2) Écrire une fonction qui prend deux chaines en paramètre et renvoie la chaine dont la longueur est la plus grande.
+2) Tester sur votre programme précédent la taille de la chaîne de caractère contenu dans la variable `phrase`.
 
-3) Compléter avec le programme principal qui permet de créer deux variables contenant des chaines et de tester la fonction avec ces deux variables.
 
 ### Applications V
 

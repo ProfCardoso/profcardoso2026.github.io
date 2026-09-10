@@ -9,6 +9,8 @@ title: Initialisation à Python
 
 ## Quelques fonctions natives
 
+L'interpréteur Python propose quelques fonctions et types natifs qui sont toujours disponibles.
+
 ### Application
 
 Dans un programme en python, proposer différentes instructions de façon à compléter le tableau ci-dessous, en précisant :
@@ -46,24 +48,26 @@ surface_disque = math.pi * rayon ** 2
 ```
 
 Voici quelques modules disponibles sur python :
-- `math` ( fournit un ensemble de fonctions mathématiques, de constantes communes et de fonctions d'utilité pour effectuer des calculs mathématiques avancés )
-- `random` ( permet de générer des nombres pseudo-aléatoires et d'effectuer diverses opérations aléatoires dans les programmes )
-- `time` ( permet de manipuler et de travailler avec le temps, offrant des fonctionnalités essentielles pour l'obtention de l'heure actuelle, la suspension de l'exécution du programme, le contrôle de la durée d'exécution, la gestion du temps pour les tâches planifiées, ou encore la mesure des performances )
-- `turtle` ( permet de dessiner des figures géométriques et des motifs de manière simple en contrôlant une « tortue » virtuelle sur un écran )
+- `math` ( fournit un ensemble de fonctions mathématiques, de constantes communes et de fonctions d'utilité pour effectuer des calculs mathématiques avancés ) <a href="https://docs.python.org/fr/3.14/library/math.html"> documentation ici </a>
+- `random` ( permet de générer des nombres pseudo-aléatoires et d'effectuer diverses opérations aléatoires dans les programmes ) <a href="https://docs.python.org/fr/3.14/library/random.html"> documentation ici </a>
+- `time` ( permet de manipuler et de travailler avec le temps, offrant des fonctionnalités essentielles pour l'obtention de l'heure actuelle, la suspension de l'exécution du programme, le contrôle de la durée d'exécution, la gestion du temps pour les tâches planifiées, ou encore la mesure des performances ) <a href="https://docs.python.org/fr/3.14/library/time.html"> documentation ici </a>
+- `turtle` ( permet de dessiner des figures géométriques et des motifs de manière simple en contrôlant une « tortue » virtuelle sur un écran ) <a href="https://docs.python.org/fr/3.14/library/turtle.html"> documentation ici </a>
 - ...  
 
 ### Applications
 
-**Application 1**  
-Écrire un programme qui affiche la racine carrée de 2, 3, 4 et 15129.
-
-**Application 2**  
-Écrire un programme qui affiche 3 nombres aléatoires compris entre 0 et 99.
-
-**Application 3**  
-Le module time contient, entre autres, la fonction sleep qui prend en paramètre une durée en seconde et permet de faire une pause dans l'exécution du programme.
-
-Écrire un programme qui permet d'afficher, toute les secondes, les nombres 1, puis 2, puis 3, puis 4 et enfin 5.
+> #### Application I
+> Écrire un programme qui affiche la racine carrée de 2, 3, 4 et 15129.
+>
+> #### Application II
+>  
+> Écrire un programme qui affiche 3 nombres aléatoires compris entre 0 et 99.
+>
+> #### Application III
+> 
+> Le module time contient, entre autres, la fonction sleep qui prend en paramètre une durée en seconde et permet de faire une pause dans l'exécution du programme.
+>
+> Écrire un programme qui permet d'afficher, toute les secondes, les nombres 1, puis 2, puis 3, puis 4 et enfin 5.
 
 ## Vos fonctions
 
@@ -92,7 +96,7 @@ def foo(param1, param2...):
 foo(arg1, arg2...)
 ```
 
-Lors de l'appel (ligne 7), les différentes valeurs passées en arguments sont affectées aux paramètres (ligne 2).
+*Lors de l'appel (ligne 7), les différentes valeurs passées en arguments sont affectées aux paramètres (ligne 2).*
 
 ### Fonction qui renvoie une donnée
 
@@ -121,27 +125,27 @@ Ces syntaxes sont particulièrement utiles pour créer des fonctions générique
 
 ## Applications
 
-### Application : Un peu de math ... 
-
-Pour les fonctions ci-dessous, on utilisera la valeur de `pi` et la méthode `sqrt` du module `math`.  
-
-1) Écrire une fonction `distance(x1, y1, x2, y2)` qui calcule la distance entre deux points du plan à l’aide de la formule :
-
-
-$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
-
-
-2) Écrire une fonction `aire_cercle(r)` qui calcule l’aire d’un cercle de rayon `r`. Pour rappel, la formule mathématique est la suivante : 
-
-
-$$A = \pi \times r^2$$
-
-
-### Application : ... et d'aléatoire !
-
-Pour les fonctions ci-dessous, on utilisera la méthode `randint` du module `random`. 
-
-On considère le code ci-dessous.
+> ### Application IV : Un peu de math ... 
+>
+> Pour les fonctions ci-dessous, on utilisera la valeur de `pi` et la méthode `sqrt` du module `math`. (n'oubliez pas l'`import` !) 
+>
+> 1) Écrire une fonction `distance(x1, y1, x2, y2)` qui calcule la distance entre deux points du plan à l’aide de la formule :
+>
+> 
+> $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+>
+> 2) Écrire une fonction `aire_cercle(r)` qui calcule l’aire d’un cercle de rayon `r`. Pour rappel, la formule mathématique est la suivante : 
+>
+>
+> $$A = \pi \times r^2$$
+> 
+>
+> ### Application V : ... et d'aléatoire !
+>
+> Pour les fonctions ci-dessous, on utilisera la méthode `randint` du module `random`. 
+>
+> On considère le code ci-dessous.
+>
 
 ```python
 def fct():
@@ -151,9 +155,32 @@ def fct():
     return str(j) + "/" + str(m) + "/" + str(a)
 ```
 
-1) Expliquer en une phrase l'utilité de cette fonction. Changer le nom de la fonction en conséquence.
+>
+> 1) Expliquer en une phrase l'utilité de cette fonction. Changer le nom de la fonction en conséquence.
+> 
+> 2) Expliquer les différents éléments de la syntaxe python de la ligne 5.
+>
+> ### Application VI
+>
+> 1) Écrire une fonction `taille` qui prend deux str en paramètre et renvoie la chaine dont la longueur est la plus grande.
+> 
+> 2) Tester votre fonction avec l'exemple suivant
 
-2) Expliquer les différents éléments de la syntaxe python de la ligne 5.
+```python
+a = "Bonjour" 
+b = "Salut!"
+print("La plus grande chaîne de caractère est :", taille(a,b))
+
+>>> La plus grande chaîne de caractère est : Bonjour
+```
+>
+> ### Application VIII : Positif ou négatif ?
+> 
+> 1) Écrire une **fonction prédicat** (c'est-à-dire qui renvoie True ou False) pour tester si un nombre est positif ou nul.
+>
+> 2) Écrire une fonction `accorder_un_prêt(compte_bancaire)` qui renvoie si le prêt est accordé si le compte bancaire à un solde supérieur à 0
+>
+> 3) Pour les plus rapides : modifier la fonction précédente pour tester avec n'importe quelle fonction prédicat, donné en paramètre.
 
 
 
