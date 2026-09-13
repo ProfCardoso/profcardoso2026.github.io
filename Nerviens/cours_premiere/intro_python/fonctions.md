@@ -57,6 +57,7 @@ Voici quelques modules disponibles sur python :
 ### Applications
 
 > #### Application I
+>
 > Écrire un programme qui affiche la racine carrée de 2, 3, 4 et 15129.
 >
 > #### Application II
