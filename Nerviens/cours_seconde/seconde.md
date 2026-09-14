@@ -173,6 +173,19 @@ title: Cours de Seconde SNT
   
 ---
 
+
+
+---
+
+### Quelques documents
+
+Vous pouvez retrouver les versions dématérialisées ici : [Documents](./document_seconde/document_seconde.html)
+
+
+
+-->
+---
+
 ### Activité Bonus
 
 
@@ -187,14 +200,6 @@ title: Cours de Seconde SNT
 </div>
 
 ---
-
-### Quelques documents
-
-Vous pouvez retrouver les versions dématérialisées ici : [Documents](./document_seconde/document_seconde.html)
-
----
-
--->
 
 Le bulletin officiel est trouvable ici : [BO SNT](BO_SNT.pdf)
 
