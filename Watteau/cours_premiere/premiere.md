@@ -52,11 +52,6 @@ title: Cours de Première NSI
   </div>
 </div>
 
-
-
-<!-- 
-
-
 ## Thème 2 : Représentation des nombres
 
 <div class="cours-section">
@@ -70,6 +65,8 @@ title: Cours de Première NSI
       <h3>Représentation des entiers naturels</h3>
     </a>
 
+<!--
+
     <a class="boite" href="./repre_nombre/repre_nombre_rela.html">
       <h3>Représentation des entiers relatifs</h3>
     </a>
@@ -82,9 +79,12 @@ title: Cours de Première NSI
       <h3> ⭐Exercice Bonus ⭐</h3>
     </a>
 
+    -->
+
   </div>
 </div>
 
+<!-- 
 
 ## Thème 3 : Listes et Tuples
 
