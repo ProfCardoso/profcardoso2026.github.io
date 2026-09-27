@@ -35,6 +35,24 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+---
+
+### Python
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./python/cours_prog.html">
+      <h3>Initiation à Python</h3>
+    </a>
+
+    <a class="boite-bonus" href="./exercice_supp/programmation.html">
+      <h3>⭐ Exercice Bonus ⭐</h3>
+    </a>
+
+  </div>
+</div>
+  
 
 <!-- 
 
@@ -153,24 +171,7 @@ title: Cours de Seconde SNT
 
 ---
 
----
 
-### Python
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <a class="boite" href="./document_seconde/python/cours_prog.html">
-      <h3>Initiation à Python</h3>
-    </a>
-
-    <a class="boite-bonus" href="./exercice_supp/programmation.html">
-      <h3>⭐ Exercice Bonus ⭐</h3>
-    </a>
-
-  </div>
-</div>
-  
 ---
 
 ### Activité Bonus
