@@ -84,6 +84,23 @@ title: Cours de Première NSI
   </div>
 </div>
 
+
+---
+
+## Projet 1 : Initialisation à Python
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-projet" href="./projet_1/liste_sujet_consignes.html">
+    <div >
+      <h3> Mini Projet </h3>
+    </div>
+    </a>
+
+  </div>
+</div>
+
 <!-- 
 
 ## Thème 3 : Listes et Tuples
@@ -309,20 +326,6 @@ title: Cours de Première NSI
 </div>
 
 ---
-
-## Projet 1 : Initialisation à Python
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <a class="boite-projet" href="./projet_1/liste_sujet_consignes.html">
-    <div >
-      <h3> Mini Projet </h3>
-    </div>
-    </a>
-
-  </div>
-</div>
 
 ## Projet 2 : Liste Python
 
