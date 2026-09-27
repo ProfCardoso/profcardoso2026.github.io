@@ -4,6 +4,8 @@ title: Projet Python
 
 # Projet Python
 
+<link rel="stylesheet" href="../../assets/style.css" />
+
 Le but de ce projet est de créer une calculatrice qui permet de faire des opérations simples sur les entiers et les nombres à virgule. Elle permet aussi de refaire une opération en partant du résultat de la dernière opération.
 
 
@@ -21,15 +23,21 @@ x ÷ y : division
 
 Dans le cas d'une opération qui nécessite un deuxième nombre, l'utilisateur doit saisir ce nombre. Votre programme affiche ensuite le résultat de l'opération et propose à l'utilisateur de refaire une opération en partant du résultat de la dernière opération.
 
+<br>
+
 Votre programme continue de proposer à l'utilisateur de refaire une opération jusqu'à ce qu'il choisisse de quitter. Pour lui permettre de quitter, ajoutez une option Quitter dans le menu de choix de l'opération.
+
+<br>
 
 **Attention :** votre programme doit pouvoir gérer les entiers et les nombres à virgule. Une façon simple de savoir si un nombre saisi par l'utilisateur est un nombres à virgule est de regarder s'il y a un point (.) dans la chaîne de caractères. Si c'est le cas, vous pouvez convertir la chaîne de caractères en nombre à virgule avec la fonction float().
 
-**Exemple d'exécution**
+<br>
+
+### Exemple d'exécution
 
 Voici un exemple possible d'exécution de votre programme (le texte affiché par le programme est en bleu, tandis que le texte entré par l'utilisateur est en noir).
 
-```python
+```shell
 Entrez un nombre : 42
 Choisissez une opération :
 1) 42 + y

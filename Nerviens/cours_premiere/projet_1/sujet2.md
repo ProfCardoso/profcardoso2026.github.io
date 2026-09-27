@@ -4,12 +4,16 @@ title: Projet Python
 
 # Projet Python
 
+<link rel="stylesheet" href="../../assets/style.css" />
 
 ## Logiciel d'apprentissage des tables de multiplication
 
 Le but de ce projet est de créer un logiciel éducatif permettant de s'entraîner sur les tables de multiplication.
 
-Votre programme demande d'abord à l'utilisateur quelle table de multiplication il veut réviser. Une fois qu'il a répondu, le programme lui pose 10 questions de la forme : "Combien font 3 x 5 ?" correspondant à la table choisie. Après chaque question, le programme indique si la réponse est fausse (et ne dit rien si elle est juste). À la fin, le programme affiche le nombre de bonnes réponses sur 10 et félicite l'utilisateur s'il a fait un sans faute. S'il n'a pas fait un sans faute, le programme fait essayer l'utilisateur à nouveau.
+- Votre programme demande d'abord à l'utilisateur quelle table de multiplication il veut réviser. 
+- Une fois qu'il a répondu, le programme lui pose 10 questions de la forme : "Combien font 3 x 5 ?" correspondant à la table choisie. 
+- Après chaque question, le programme indique si la réponse est fausse (et ne dit rien si elle est juste). 
+- À la fin, le programme affiche le nombre de bonnes réponses sur 10 et félicite l'utilisateur s'il a fait un sans faute. S'il n'a pas fait un sans faute, le programme fait essayer l'utilisateur à nouveau.
 
 1) Créer une fonction `revision(table)` qui prend un entier `table` et qui lance une série de question pour l'utilisateur.
 

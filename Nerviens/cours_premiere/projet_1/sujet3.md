@@ -4,6 +4,7 @@ title: Projet Python
 
 # Projet Python
 
+<link rel="stylesheet" href="../../assets/style.css" />
 
 ## Analyseur de mots de passe
 
