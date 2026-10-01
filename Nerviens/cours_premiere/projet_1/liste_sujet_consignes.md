@@ -2,26 +2,26 @@
 title: Projet Python
 ---
 
-# Projet Python
+# Projet Python : les mini-projets
 
 <link rel="stylesheet" href="../../assets/style.css" />
 
 
 ## Consignes
 
-Par groupe de 2, choisissez un sujet parmis la liste ci-dessous **( ⚠️ 1 groupe par projet ⚠️ )**. Voici quelques consignes :
+Par groupe de 2 (ou 3 maximum), choisissez un sujet parmis la liste ci-dessous **( ⚠️ 1 groupe par projet ⚠️ )**. Voici quelques consignes :
 
 - Créez un dossier `Projet`, dans votre dossier `NSI`, et y ajouter un document texte avec le **nom**, le **prénom** et le **sujet** choisi par votre groupe.
 - Commentez les parties du code qui ne seraient pas immédiatement compréhensibles à la lecture.
-- Ecrivez un document consignant vos recherches sur le sujet, la répartition des tâches et une explication du fonctionnement de votre code.
-- Pour chacune de vos fonctions, vous ecrirez une documentation sous forme de docstring.
+- Ecrivez le rapport de votre journée en consignant vos recherches sur le sujet, la répartition des tâches et une explication du fonctionnement de votre code (actuel).
 - Barème sur 10 points :
 
     - 5 points pour la qualité et la correction du code, 
-    - 1 point pour la réalisation des objectifs fixés, 1 point si vous allez plus loin dans le projet
-    - 2 points sur le document de recherche en classe,
-    - 1 point pour les commentaires et la documentation,
-- A la fin de la séance, le projet complet (fichier(s) python + documentation) sera a envoyé à mon adresse mail : Mathieu.Cardoso@ac-montpellier.fr 
+    - 1 point pour la réalisation des objectifs fixés, 1 point si vous allez plus loin dans le projet,
+    - 3 points sur le rapport de votre travail en classe,
+- A la fin des séances, le projet complet (fichier(s) python) sera à envoyer à mon adresse mail : Mathieu.Cardoso@ac-lille.fr 
+
+⚠️ **Attention** ⚠️ : l'utilisation quelconque d'IA dans votre programme sans recherche de votre part et sans compréhension du code sera pénalisée !
 
 ## Liste des projets :
 
@@ -56,3 +56,6 @@ Par groupe de 2, choisissez un sujet parmis la liste ci-dessous **( ⚠️ 1 gro
   </div>
 </div>
 
+## Rapport
+
+Vous pouvez télécharger le rapport de séance à remplir ici : <a href="./Rapport.odt" >Rapport.odt</a>
