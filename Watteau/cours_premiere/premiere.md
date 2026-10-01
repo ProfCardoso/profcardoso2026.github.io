@@ -65,11 +65,11 @@ title: Cours de Première NSI
       <h3>Représentation des entiers naturels</h3>
     </a>
 
-<!--
-
     <a class="boite" href="./repre_nombre/repre_nombre_rela.html">
       <h3>Représentation des entiers relatifs</h3>
     </a>
+
+<!--
 
     <a class="boite" href="./repre_nombre/repre_nombre_virg.html">
       <h3>Représentation des nombres à virgules</h3>

@@ -65,11 +65,11 @@ title: Cours de Première NSI
       <h3>Représentation des entiers naturels</h3>
     </a>
 
-<!--
-
     <a class="boite" href="./repre_nombre/repre_nombre_rela.html">
       <h3>Représentation des entiers relatifs</h3>
     </a>
+
+<!--
 
     <a class="boite" href="./repre_nombre/repre_nombre_virg.html">
       <h3>Représentation des nombres à virgules</h3>
@@ -80,6 +80,23 @@ title: Cours de Première NSI
     </a>
 
     -->
+
+  </div>
+</div>
+
+
+---
+
+## Projet 1 : Initialisation à Python
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-projet" href="./projet_1/liste_sujet_consignes.html">
+    <div >
+      <h3> Mini Projet </h3>
+    </div>
+    </a>
 
   </div>
 </div>
@@ -309,20 +326,6 @@ title: Cours de Première NSI
 </div>
 
 ---
-
-## Projet 1 : Initialisation à Python
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <a class="boite-projet" href="./projet_1/liste_sujet_consignes.html">
-    <div >
-      <h3> Mini Projet </h3>
-    </div>
-    </a>
-
-  </div>
-</div>
 
 ## Projet 2 : Liste Python
 

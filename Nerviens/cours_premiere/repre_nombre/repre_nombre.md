@@ -2,7 +2,7 @@
 title: Représentation des nombres
 ---
 
-<link rel="stylesheet" href="../assets/style.css" />
+<link rel="stylesheet" href="../../assets/style.css" />
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 # Représentation des entiers naturels
@@ -46,7 +46,7 @@ Remarques :
 
 - Le nombre $$(4532)_{10}$$ a pour valeur en base 10 :  $$4 \times 10^{3} + 5 \times 10^{2} + 3 \times 10^{1} + 2 \times 10^{0}$$
 
-- Le nombre $$(4301)_{5}$$ a pour valeur en base 10 :  $$4 \times 5^{3} + 3 \times 5^{2} + 0 \times 5^{1} + 1 \times 5^{0}$$
+- Le nombre $$(4301)_{5}$$ a pour valeur en base 5 :  $$4 \times 5^{3} + 3 \times 5^{2} + 0 \times 5^{1} + 1 \times 5^{0}$$
 
 ➜ Il en est de même pour toutes les bases.
 
@@ -68,8 +68,6 @@ Remarques :
 
 
 ## Valeur en base $$x$$ d'un nombre écrit en base 10
-
-# I.3 – Valeur en base $$x$$ d’un nombre écrit en base 10
 
 **Exemple**
 
@@ -105,11 +103,9 @@ L'écriture en base 2 conduisant à beaucoup de 0 et de 1, il est courant de rem
 
 > ## Applications
 >
-> ### Application I
+> ### 🖋️ Application I 
 >
 > **Passer de la base 10 à la base 2 et inversement**
->
-> **À faire (sans ordinateur et sans calculatrice)**
 >
 > 1. À quel entier en base dix la séquence de bits `0100` correspond-elle ?
 > 2. Quelle est la valeur décimale de l’entier qui s’écrit `1010` en binaire ?
@@ -118,11 +114,9 @@ L'écriture en base 2 conduisant à beaucoup de 0 et de 1, il est courant de rem
 >
 > ---
 >
-> ### Application II
+> ### 🖋️ Application II 
 >
 > **Passer de la base 10 à la base 16 et inversement**
->
-> **À faire (sans ordinateur et sans calculatrice)**
 >
 > 1. Quelle est l’écriture en base dix du nombre qui s’écrit `AAA` en base 16 ?
 > 2. Convertir le nombre `6D` de la base 16 à la base 10.
@@ -168,7 +162,7 @@ Case 64 :
 > 
 > ---
 >
-> ### Application V : Conversions
+> ### 🖋️ Application V : Conversions
 > 
 > 1) Convertir le nombre binaire 1110 en base 8, 10 puis 16.
 > 
@@ -198,7 +192,7 @@ Case 64 :
 ```
 > ---
 >
-> ### Application VII : Conversion de couleur !
+> ### 💻 Application VII : Conversion de couleur !
 > 
 > Le système hexadécimal est en particulier un mode de code informatique des couleurs.
 >
