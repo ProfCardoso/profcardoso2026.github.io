@@ -4,15 +4,23 @@ title: Projet Python
 
 # Projet Python
 
+<link rel="stylesheet" href="../../assets/style.css" />
+
 Le but de ce projet est de créer le jeu du nombre mystère, dans lequel un joueur A choisit un nombre aléatoire entre 1 et 100 et un joueur B doit le retrouver. À chaque essai du joueur B, le joueur A indique si le nombre mystère est plus grand ou plus petit que le nombre proposé.
 
 ## Nombre mystère 
 
 Vous devrez programmer deux modes de jeu : le mode où l'ordinateur choisit le nombre et l'utilisateur le cherche, et le mode où l'utilisateur choisit le nombre et l'ordinateur le cherche.
 
+<br>
+
 Votre programme demande d'abord à l'utilisateur dans quel mode il veut jouer. Selon le mode choisi, le programme se comporte différemment.
 
+<br>
+
 Si le mode choisi est celui où l'ordinateur choisit le nombre, le programme demande à l'utilisateur de choisir un nombre entre 1 et 100, puis lui indique si le nombre mystère est plus grand ou plus petit et recommence tant que l'utilisateur n'a pas trouvé le nombre. Quand l'utilisateur a trouvé, le programme indique en combien de tours il a trouvé le nombre.
+
+<br>
 
 Si le mode choisi est celui où le joueur choisit le nombre, le programme demande à l'utilisateur d'appuyer sur Entrée quand il a choisi son nombre. Ensuite, l'ordinateur fait une proposition. L'utilisateur doit indiquer si le nombre mystère est plus grand, plus petit ou égal à la proposition. L'ordinateur fait d'autres propositions jusqu'à ce que le nombre mystère soit trouvé. Quand l'ordinateur a trouvé, le programme indique en combien de tours il a trouvé le nombre. Essayez de trouver une méthode efficace pour votre intelligence artificielle !
 
@@ -22,7 +30,7 @@ Si le mode choisi est celui où le joueur choisit le nombre, le programme demand
 
 Cas où l'ordinateur choisit le nombre mystère :
 
-```python
+```shell
 Dans quel mode voulez-vous jouer ?
 1) L'ordinateur choisit le nombre
 2) L'utilisateur choisit le nombre
@@ -63,3 +71,15 @@ Votre réponse :
 Choix : 1
 L ordinateur a trouvé en 3 coups !
 ```
+
+## Pour aller plus loin : Création d'une interface graphique (Tkinter)
+
+Pour rendre votre projet plus "concret", vous pouvez utiliser une bibliothèque nommé Tkinter pour créer une interface graphique à votre projet.
+
+**Interface Graphique** : Une interface graphique est un ensemble d’éléments visuels qui permet à un utilisateur d’interagir avec un programme, par exemple en cliquant sur des boutons, en saisissant du texte ou en faisant des choix.
+
+Pour ce faire, voici un lien vers un cours rapide sur Tkinter :
+
+<a class="boite" href="./tkinter.html">
+  <h3>Tkinter : Documentation</h3>
+</a>

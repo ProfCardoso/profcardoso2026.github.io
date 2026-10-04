@@ -52,3 +52,15 @@ Combien font 5 x 10 ? 50
 Votre note est de 10/10
 Bravo, vous avez fait un sans faute !
 ```
+
+## Pour aller plus loin : Création d'une interface graphique (Tkinter)
+
+Pour rendre votre projet plus "concret", vous pouvez utiliser une bibliothèque nommé Tkinter pour créer une interface graphique à votre projet.
+
+**Interface Graphique** : Une interface graphique est un ensemble d’éléments visuels qui permet à un utilisateur d’interagir avec un programme, par exemple en cliquant sur des boutons, en saisissant du texte ou en faisant des choix.
+
+Pour ce faire, voici un lien vers un cours rapide sur Tkinter :
+
+<a class="boite" href="./tkinter.html">
+  <h3>Tkinter : Documentation</h3>
+</a>

@@ -4,12 +4,16 @@ title: Projet Python
 
 # Projet Python
 
+<link rel="stylesheet" href="../../assets/style.css" />
 
 ## Logiciel d'apprentissage des tables de multiplication
 
 Le but de ce projet est de créer un logiciel éducatif permettant de s'entraîner sur les tables de multiplication.
 
-Votre programme demande d'abord à l'utilisateur quelle table de multiplication il veut réviser. Une fois qu'il a répondu, le programme lui pose 10 questions de la forme : "Combien font 3 x 5 ?" correspondant à la table choisie. Après chaque question, le programme indique si la réponse est fausse (et ne dit rien si elle est juste). À la fin, le programme affiche le nombre de bonnes réponses sur 10 et félicite l'utilisateur s'il a fait un sans faute. S'il n'a pas fait un sans faute, le programme fait essayer l'utilisateur à nouveau.
+- Votre programme demande d'abord à l'utilisateur quelle table de multiplication il veut réviser. 
+- Une fois qu'il a répondu, le programme lui pose 10 questions de la forme : "Combien font 3 x 5 ?" correspondant à la table choisie. 
+- Après chaque question, le programme indique si la réponse est fausse (et ne dit rien si elle est juste). 
+- À la fin, le programme affiche le nombre de bonnes réponses sur 10 et félicite l'utilisateur s'il a fait un sans faute. S'il n'a pas fait un sans faute, le programme fait essayer l'utilisateur à nouveau.
 
 1) Créer une fonction `revision(table)` qui prend un entier `table` et qui lance une série de question pour l'utilisateur.
 
@@ -48,3 +52,15 @@ Combien font 5 x 10 ? 50
 Votre note est de 10/10
 Bravo, vous avez fait un sans faute !
 ```
+
+## Pour aller plus loin : Création d'une interface graphique (Tkinter)
+
+Pour rendre votre projet plus "concret", vous pouvez utiliser une bibliothèque nommé Tkinter pour créer une interface graphique à votre projet.
+
+**Interface Graphique** : Une interface graphique est un ensemble d’éléments visuels qui permet à un utilisateur d’interagir avec un programme, par exemple en cliquant sur des boutons, en saisissant du texte ou en faisant des choix.
+
+Pour ce faire, voici un lien vers un cours rapide sur Tkinter :
+
+<a class="boite" href="./tkinter.html">
+  <h3>Tkinter : Documentation</h3>
+</a>
