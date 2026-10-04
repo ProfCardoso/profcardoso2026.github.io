@@ -68,6 +68,10 @@ Pour rendre votre projet plus "concret", vous pouvez utiliser une bibliothèque 
 
 Pour ce faire, voici un lien vers un cours rapide sur Tkinter :
 
-<a class="boite" href="./tkinter.html">
-  <h3>Tkinter : Documentation</h3>
-</a>
+<div class="cours-section">
+  <div class="boites-lecons">
+    <a class="boite" href="./tkinter.html">
+      <h3>Tkinter : Interface Graphique</h3>
+    </a>
+  </div>
+</div>
