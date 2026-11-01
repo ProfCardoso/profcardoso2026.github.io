@@ -69,17 +69,15 @@ title: Cours de Première NSI
       <h3>Représentation des entiers relatifs</h3>
     </a>
 
-<!--
-
     <a class="boite" href="./repre_nombre/repre_nombre_virg.html">
       <h3>Représentation des nombres à virgules</h3>
     </a>
-
+<!--
     <a class="boite-bonus" href="./repre_nombre/exercice_bonus.html">
       <h3> ⭐Exercice Bonus ⭐</h3>
     </a>
 
-    -->
+-->
 
   </div>
 </div>
@@ -98,6 +96,27 @@ title: Cours de Première NSI
     </div>
     </a>
 
+  </div>
+</div>
+
+## Projet 2 : Le jeu du Mini Maze
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+   
+
+    <a class="boite" href="./jeu_de_test_documentation/docstring.html">
+    <div >
+      <h3> Documentation: docstring </h3>
+    </div>
+    </a> 
+    
+<!-- 
+    <a class="boite-projet" href="./projet_2/liste_sujet_consignes.html">
+      <h3>Mini Maze : consignes </h3>
+    </a>
+ -->
   </div>
 </div>
 
@@ -141,11 +160,7 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./jeu_de_test_documentation/docstring.html">
-    <div >
-      <h3> Documentation: docstring </h3>
-    </div>
-    </a>
+    
 
     <a class="boite" href="./jeu_de_test_documentation/jeu_de_test.html">
     <div >
@@ -327,17 +342,7 @@ title: Cours de Première NSI
 
 ---
 
-## Projet 2 : Liste Python
 
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <a class="boite-projet" href="./projet_2/liste_sujet_consignes.html">
-      <h3> Jeu de société </h3>
-    </a>
-
-  </div>
-</div>
 
 ## Projet 3 : IHM
 

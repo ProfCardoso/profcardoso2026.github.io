@@ -2,16 +2,18 @@
 title: Aide
 ---
 
+<link rel="stylesheet" href="../../assets/style.css" />
+
 # Les docstrings
 
-Une docstring (documentation string) est une chaîne de caractères placée au début d’une fonction, d’une classe ou d’un module pour expliquer ce qu’il fait. Elle aide à comprendre le code sans avoir à tout relire.
+Une **docstring (documentation string)** est une **chaîne de caractères placée au début d’une fonction, d’une classe ou d’un module** pour expliquer ce qu’il/elle fait. Elle aide à comprendre le code sans avoir à tout relire.
 
 
 ## Rédaction
 
 La docstring commence juste après la déclaration de la fonction. Elle est encadrée par des triples guillemets `"`.
 
-### Une docstring courte 
+### Exemple : Une docstring courte 
 
 ```python
 def somme_entiers(n):
@@ -23,7 +25,7 @@ def somme_entiers(n):
 
 ```
 
-Dans le shell, on peut alors obtenir la documentation de la fonction, à l'aide de la fonction help(fonction).
+Dans le shell (console python), on peut alors obtenir la documentation de la fonction, à l'aide de la fonction help(fonction).
 
 ```shell
 >>> help(somme_entiers)
@@ -35,7 +37,7 @@ somme_entiers(n)
 >>>      
 ```
 
-### Une docstring longue 
+### Exemple : Une docstring longue 
 
 - Les triples guillemets
 - À la ligne une description courte, puis une ligne vide
@@ -69,3 +71,15 @@ Dans le shell, on peut alors obtenir la documentation de la fonction.
 
 Les docstrings peuvent être plus longue que le code lui même.
 Les docstrings permettent de décrire des cas d'utilisation d'une fonction et peuvent remplacer un énoncé.
+
+## Application
+>
+> Voici plusieurs fichiers python avec des fonctions non documentées, avec des noms peu explicites (clairs). 
+> - Changer le nom pour des fonctions 
+> - Ajoutez une docstring longue pour chacune des fonctions
+>
+> Conseils : Vous pouvez executer les fonctions pour comprendre ce qu'elles font.
+>
+> - <a href="fonction_myst_1.py"> Fichier 1 </a>
+> - <a href="fonction_myst_2.py"> Fichier 2 </a>
+> - <a href="fonction_myst_3.py"> Fichier 3 </a>

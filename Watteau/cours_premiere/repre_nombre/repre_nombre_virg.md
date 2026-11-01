@@ -14,8 +14,8 @@ title: Représentation des nombres
 💻 Evaluer les instruction suivantes :  
 
 ```shell
->>>1.1 + 1.1
->>>1.1 + 1.1 + 1.1
+>>> 1.1 + 1.1
+>>> 1.1 + 1.1 + 1.1
 ```
 Les résultats vous semble-t-ils normaux ?  
 
@@ -23,8 +23,8 @@ Les résultats vous semble-t-ils normaux ?
 💻 Evaluer les instruction suivantes :  
 
 ```shell
->>>0.1 + 0.1 - 0.2
->>>0.1 + 0.1 + 0.1 - 0.3
+>>> 0.1 + 0.1 - 0.2
+>>> 0.1 + 0.1 + 0.1 - 0.3
 ```
 Les résultats vous semble-t-ils normaux ?  
 
@@ -32,8 +32,8 @@ Les résultats vous semble-t-ils normaux ?
 💻 Evaluer les instruction suivantes :  
 
 ```shell
->>>3 + 10**(-16) == 3
->>>3 + 10**(-15) == 3
+>>> 3 + 10**(-16) == 3
+>>> 3 + 10**(-15) == 3
 ```
 
 Les résultats vous semble-t-ils normaux ?  
