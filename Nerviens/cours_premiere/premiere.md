@@ -83,6 +83,42 @@ title: Cours de Première NSI
 </div>
 
 
+
+## Thème 3 : Listes et Tuples
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./liste_tuple/listes.html">
+      <h3>Les listes</h3>
+    </a>
+
+<!-- 
+
+    <a class="boite-tp" href="./liste_tuple/jeu_societe_correction.html">
+      <h3>TP : Jeu de société</h3>
+    </a>
+
+    <a class="boite-bonus" href="./liste_tuple/exercice_bonus.html">
+      <h3>⭐ Exercice Bonus ⭐</h3>
+    </a>
+
+    <a class="boite" href="./liste_tuple/listes_en_comprehension.html">
+      <h3>Les listes en compréhensions et listes de listes</h3>
+    </a>
+
+    <a class="boite" href="./liste_tuple/tuples.html">
+      <h3>Les tuples</h3>
+    </a>
+    
+    <a class="boite-bonus" href="./liste_tuple/activite_noel.html">
+      <h3>🎄 Exercice de Noël bonus 🎄</h3>
+    </a>
+-->
+  </div>
+</div>
+
+
 ---
 
 ## Projet 1 : Initialisation à Python
@@ -121,38 +157,6 @@ title: Cours de Première NSI
 </div>
 
 <!-- 
-
-## Thème 3 : Listes et Tuples
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <a class="boite" href="./liste_tuple/listes.html">
-      <h3>Les listes</h3>
-    </a>
-
-    <a class="boite-tp" href="./liste_tuple/jeu_societe_correction.html">
-      <h3>TP : Jeu de société</h3>
-    </a>
-
-    <a class="boite-bonus" href="./liste_tuple/exercice_bonus.html">
-      <h3>⭐ Exercice Bonus ⭐</h3>
-    </a>
-
-    <a class="boite" href="./liste_tuple/listes_en_comprehension.html">
-      <h3>Les listes en compréhensions et listes de listes</h3>
-    </a>
-
-    <a class="boite" href="./liste_tuple/tuples.html">
-      <h3>Les tuples</h3>
-    </a>
-    
-    <a class="boite-bonus" href="./liste_tuple/activite_noel.html">
-      <h3>🎄 Exercice de Noël bonus 🎄</h3>
-    </a>
-
-  </div>
-</div>
 
 
 ## Thème 4 : Documentation et jeu de test

@@ -74,12 +74,10 @@ Les docstrings permettent de décrire des cas d'utilisation d'une fonction et pe
 
 ## Application
 >
-> Voici plusieurs fichiers python avec des fonctions non documentées, avec des noms peu explicites (clairs). 
-> - Changer le nom pour des fonctions 
-> - Ajoutez une docstring longue pour chacune des fonctions
+> Voici un fichier python avec des fonctions non documentées, avec des noms peu explicites (clairs). Choisir 5 fonctions dans ce fichier et :
+> - Changer le nom des fonctions ;
+> - Ajoutez une docstring longue pour chacune des fonctions.
 >
 > Conseils : Vous pouvez executer les fonctions pour comprendre ce qu'elles font.
 >
-> - <a href="fonction_myst_1.py"> Fichier 1 </a>
-> - <a href="fonction_myst_2.py"> Fichier 2 </a>
-> - <a href="fonction_myst_3.py"> Fichier 3 </a>
+> <a href="fonction_myst_1.py"> Fichier Fonctions Mystères </a>

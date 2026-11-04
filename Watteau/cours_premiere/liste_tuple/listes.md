@@ -4,6 +4,8 @@ title: Initialisation à Python
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<link rel="stylesheet" href="../../assets/style.css" />
+
 # Les listes
 
 Dans nos révisions du langage Python, nous avions vu certains types de variables simples: `int` (entiers), `float` (nombres à virgule flottante), `bool` (booléen) et `str` (chaîne de caractères). Nous allons maintenant voir des **types construits** qui sont des collections d’objets de type simple assemblés dans ce que l’on appelle une structure de données.  
@@ -27,6 +29,7 @@ Les listes s'écrivent avec des crochets [ ]. Les éléments sont séparés par 
 liste1 = [12, 8, -9, 9.5, 3]
 liste2 = ['a', 'b', 'c', 'd']
 liste3 = []  #Une liste peut être vide
+liste4 = list()  #Une liste peut être vide
 ```
 
 ### Longueur d'une liste
@@ -46,19 +49,19 @@ elt_A = liste[1]  #La variable elt_A contient maintenant 'b'
 elt_B = liste[-2]  #La variable elt_B contient 'c'
 ```
 
-> #### 🐍 Application I : Les jours de la semaine
+> #### 🖋️ Application I : Les jours de la semaine
 >
-> Écrire la ligne de code qui permet de créer la liste jours_semaine contenant les jours de la semaine sans le dimanche.
+> 1. Écrire la ligne de code qui permet de créer la variable `jours_semaine`, une liste contenant les jours de la semaine sans le dimanche.
 >
->Compléter avec la ligne de code qui permet de récupérer et stocker le premier élément de cette liste dans la variable premier_jour. Ajouter la ligne de code qui permet d'afficher le contenu de la variable premier_jour.
+> 2. Compléter avec la ligne de code qui permet de récupérer et stocker le premier élément de cette liste dans la variable `premier_jour`. Ajouter la ligne de code qui permet d'afficher le contenu de la variable `premier_jour`.
 >
->Compléter avec la ligne de code qui permet d'ajouter "dimanche" à la liste jours_semaine.
+> 3. Compléter avec la ligne de code qui permet d'ajouter "dimanche" à la liste `jours_semaine`.
 >
->Compléter avec la ligne de code qui permet de remplacer l'élément "mardi" par "tuesday".
+> 4. Compléter avec la ligne de code qui permet de remplacer l'élément **"mardi"** par **"tuesday"**.
 >
->Compléter avec la ligne de code qui affiche le nombre d'élément de la liste jours_semaine.
+> 5. Compléter avec la ligne de code qui affiche le nombre d'élément de la liste `jours_semaine`.
 >
->Compléter avec la ligne de code qui permet d'afficher le 3ème jour de la semaine, c'est-à-dire mercredi.
+> 6. Compléter avec la ligne de code qui permet d'afficher le 3ème jour de la semaine, c'est-à-dire mercredi.
 >
 
 ##  Parcours d'une liste avec for ... in ...
@@ -86,7 +89,7 @@ for i in range(len(liste)):   #i est une variable qui prend successivement les v
 
 ### Analyse de code : Parcourir une liste
 
-> #### Application II 
+> #### 🖋️ Application II 
 >
 > A l'aide d'un tableau, expliciter le déroulement pas à pas du code suivant :
 >
@@ -97,7 +100,7 @@ for i in range(len(liste)):
     print(str(elt) + "² = " + str(elt**2))
 ```
 >
->A l'aide d'un tableau, expliciter le déroulement pas à pas du code suivant :
+> A l'aide d'un tableau, expliciter le déroulement pas à pas du code suivant :
 >
 ```python
 liste = [1, 2, 3, 4, 5]
@@ -170,9 +173,9 @@ del liste[1] #La variable liste est maintenant égale à ['a', 'c', 'd', 'e', 'f
 
 Attention, si l'élément x n'est pas dans liste, cette fonction lève une erreur.  
 
-> #### Application III : Faire soi même
+> #### 🐍 Application III : Faire soi même
 >
-> 1) Créer une fonction `modification_liste(liste,ele,pos)` avec 3 paramètres : une liste liste , qui va être modifiée par l'élément ele à une position pos. Si la position pos est plus grande que la taille de la liste, l'élément sera ajouté à la fin de la liste, et si elle est plus petite ou égale que 0, il sera ajouté au début. 
+> 1) Créer une fonction `modification_liste(liste,ele,pos)` avec 3 paramètres : une liste `liste` , qui va être modifiée par l'élément `ele` à une position `pos`. Si la position `pos` est **plus grande que la taille de la liste**, l'élément sera **ajouté à la fin de la liste**, et si elle est **plus petite ou égale que 0**, il sera **ajouté au début**. 
 >
 > Exemple :
 >
@@ -185,7 +188,7 @@ Attention, si l'élément x n'est pas dans liste, cette fonction lève une erreu
 [8,2,3,5,6]
 ```
 >
-> 2) Créer une fonction `ajout_element_liste(liste,ele)` avec 2 paramètres : une liste liste , à qui on va ajouter l'élément ele à la fin de la liste. 
+> 2) Créer une fonction `ajout_element_liste(liste,ele)` avec 2 paramètres : une liste `liste` , à qui on va ajouter l'élément `ele` à la fin de la liste. 
 >
 > Exemple :
 >
@@ -203,7 +206,7 @@ Attention, si l'élément x n'est pas dans liste, cette fonction lève une erreu
 [1,2,3,4,5]
 ```
 >
-> 3) Créer une fonction `supprimer_element_liste(liste,pos)` avec 2 paramètres : une liste liste , à qui on va supprimer un élément à la position pos. Si la position pos est plus grande que la taille de la liste, l'élément sera supprimé à la fin de la liste, et si elle est plus petite ou égale que 0, il sera supprimé au début. 
+> 3) Créer une fonction `supprimer_element_liste(liste,pos)` avec 2 paramètres : une liste `liste` , à qui on va supprimer un élément à la position `pos`. Si la position `pos` est **plus grande que la taille de la liste**, l'élément sera **supprimé à la fin** de la liste, et si elle est **plus petite ou égale que 0**, il sera **supprimé au début**. 
 >
 > Exemple :
 >
@@ -217,11 +220,11 @@ Attention, si l'élément x n'est pas dans liste, cette fonction lève une erreu
 
 ### Condition d'appartenance d'un élément à une liste
 
-Les conditions (utilisable avec if ou while) d'appartenance et de non-appartenance d'un objet à une liste sont : `in` et `not in`.
+Les conditions (utilisable avec `if` ou `while`) d'appartenance et de non-appartenance d'un objet à une liste sont : `in` et `not in`.
 
 *Exemple :*
 
-```
+```python
 liste = ['a', 'e', 'i', 'o', 'u', 'y']
 caract = 'b'
 if caract in liste:
@@ -233,6 +236,7 @@ if caract not in liste:
 ### Autres opérations sur les listes
 
 #### Les opérateurs + et * appliqués aux listes
+
 `l1 + l2` : Renvoie une liste qui contient les éléments de l1 avec à la suite ceux de l2.  
 `l1 * n ou n * l1` : Renvoie une liste qui contient de façon répétée n fois les éléments de l1.  
 

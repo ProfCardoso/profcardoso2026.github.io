@@ -5,23 +5,6 @@ def ka(n):
     return r
 
 
-def mo(a, b):
-    while b != 0:
-        a, b = b, a % b
-    return a
-
-
-def vi(n):
-    if n < 2:
-        return False
-    i = 2
-    while i * i <= n:
-        if n % i == 0:
-            return False
-        i = i + 1
-    return True
-
-
 def ze(n):
     t = 0
     while n > 0:
@@ -30,41 +13,47 @@ def ze(n):
     return t
 
 
-def pu(a, b):
-    return a * b // mo(a, b)
-
-
-def ru(n):
-    t = 0
-    while n != 1:
-        if n % 2 == 0:
-            n = n // 2
-        else:
-            n = 3 * n + 1
-        t = t + 1
-    return t
-
-
-def te(n):
-    u = []
-    for i in range(1, n + 1):
-        if n % i == 0:
-            u.append(i)
-    return u
-
-
-def li(n):
-    return sum(te(n)) - n == n
-
-
-def xa(n):
-    r = 0
-    while n > 0:
-        r = r * 10 + n % 10
-        n = n // 10
-    return r
-
-
 def ne(n):
     for i in range(1, 11):
         print(n, "x", i, "=", n * i)
+
+
+def qa(s):
+    t = 0
+    for c in s.lower():
+        if c in "aeiouy":
+            t = t + 1
+    return t
+
+
+def nu(s, c):
+    t = 0
+    for x in s:
+        if x == c:
+            t = t + 1
+    return t
+
+
+def po(s, t):
+    return sorted(s.lower()) == sorted(t.lower())
+
+
+
+def di(s, n):
+    if len(s) <= n:
+        return s
+    return s[:n - 3] + "..."
+
+
+def su(u, x):
+    for i in range(len(u)):
+        if u[i] == x:
+            return i
+    return -1
+
+def mo(s):
+    t = 1
+    if s >= 2:
+        for i in range(1,s):
+            t = t * i
+    return t
