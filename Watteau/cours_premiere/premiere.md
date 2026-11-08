@@ -147,6 +147,13 @@ title: Cours de Première NSI
       <h3> Documentation: docstring </h3>
     </div>
     </a> 
+
+    <a class="boite" href="./projet_2/seance_decouverte_pyxel.html">
+    <div >
+      <h3> Seance dévouverte Pyxel</h3>
+    </div>
+    </a> 
+    
     
 <!-- 
     <a class="boite-projet" href="./projet_2/liste_sujet_consignes.html">
