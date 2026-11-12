@@ -3,7 +3,7 @@ title: Initialisation à Python
 ---
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<link rel="stylesheet" href="../assets/style.css" />
+<link rel="stylesheet" href="../../assets/style.css" />
 
 # Les listes en compréhensions
 
@@ -39,7 +39,7 @@ L = [n**3 for n in range(5)]
 
 > ## Applications
 >
-> ### Application I : Exercice sur feuille
+> ### 🖋️ Application I : Exercice sur feuille
 >
 > Voici plusieurs listes écritent en compréhension, écrire le résultat de ces listes :
 > 1. liste_une = [ x for x in range(0,15,2) ]

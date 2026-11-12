@@ -49,6 +49,22 @@ elt_A = liste[1]  #La variable elt_A contient maintenant 'b'
 elt_B = liste[-2]  #La variable elt_B contient 'c'
 ```
 
+### Ajout d'un élément à une liste
+
+**• Ajout d'un élément à l'aide de la méthode `append(...)`**  
+
+`liste.append(x)` :  Modifie `liste` en ajoutant l’élément x après le dernier élément.
+
+**• Remarque : ajout d'un élément par concaténation**
+
+Il est possible d'utiliser l'opérateur + entre deux listes :
+
+`l1 + l2` : Renvoie une **nouvelle** liste qui contient les éléments de l1 avec à la suite ceux de l2.
+
+Avec cet opérateur, on ajoute un élément à la liste avec le code suivant :
+
+`liste = liste + [x]` : Modifie liste en ajoutant l’élément x après le dernier élément.
+
 > #### 🖋️ Application I : Les jours de la semaine
 >
 > 1. Écrire la ligne de code qui permet de créer la variable `jours_semaine`, une liste contenant les jours de la semaine sans le dimanche.
@@ -135,21 +151,7 @@ liste = [12, 8, -9, 9.5, 3]
 liste[1] = 'a'  #La variable liste est maintenant égale à [12, 'a', -9, 9.5, 3]
 ```
 
-### Ajout d'un élément à une liste
 
-**• Ajout d'un élément à l'aide de la méthode `append(...)`**  
-
-`liste.append(x)` :  Modifie `liste` en ajoutant l’élément x après le dernier élément.
-
-**• Remarque : ajout d'un élément par concaténation**
-
-Il est possible d'utiliser l'opérateur + entre deux listes :
-
-`l1 + l2` : Renvoie une **nouvelle** liste qui contient les éléments de l1 avec à la suite ceux de l2.
-
-Avec cet opérateur, on ajoute un élément à la liste avec le code suivant :
-
-`liste = liste + [x]` : Modifie liste en ajoutant l’élément x après le dernier élément.
 
 ### Suppression d'un élément d'une liste
 
@@ -173,51 +175,6 @@ del liste[1] #La variable liste est maintenant égale à ['a', 'c', 'd', 'e', 'f
 
 Attention, si l'élément x n'est pas dans liste, cette fonction lève une erreur.  
 
-> #### 🐍 Application III : Faire soi même
->
-> 1) Créer une fonction `modification_liste(liste,ele,pos)` avec 3 paramètres : une liste `liste` , qui va être modifiée par l'élément `ele` à une position `pos`. Si la position `pos` est **plus grande que la taille de la liste**, l'élément sera **ajouté à la fin de la liste**, et si elle est **plus petite ou égale que 0**, il sera **ajouté au début**. 
->
-> Exemple :
->
-``` 
->>> modification_liste([1,2,3,5,5],4,3)
-[1,2,3,4,5]
->>> modification_liste([1,2,3,5,6],10,9)
-[1,2,3,5,10]
->>> modification_liste([1,2,3,5,6],8,-2)
-[8,2,3,5,6]
-```
->
-> 2) Créer une fonction `ajout_element_liste(liste,ele)` avec 2 paramètres : une liste `liste` , à qui on va ajouter l'élément `ele` à la fin de la liste. 
->
-> Exemple :
->
-``` 
->>> ajout_element_liste([1,2,3,4],5)
-[1,2,3,4,5]
-```
->
-> Pour les plus rapides, vous pouvez modifier la fonction pour ajouter un élément à la position voulu en paramètre
->
-> Exemple :
->
-``` 
->>> ajout_element_liste([1,2,3,5],4,3)
-[1,2,3,4,5]
-```
->
-> 3) Créer une fonction `supprimer_element_liste(liste,pos)` avec 2 paramètres : une liste `liste` , à qui on va supprimer un élément à la position `pos`. Si la position `pos` est **plus grande que la taille de la liste**, l'élément sera **supprimé à la fin** de la liste, et si elle est **plus petite ou égale que 0**, il sera **supprimé au début**. 
->
-> Exemple :
->
-``` 
->>> supprimer_element_liste([1,2,3,4],2)
-[1,2,4]
->>> supprimer_element_liste([1,2,3,5,6],-3)
-[2,3,5,6]
-```
->
-
 ### Condition d'appartenance d'un élément à une liste
 
 Les conditions (utilisable avec `if` ou `while`) d'appartenance et de non-appartenance d'un objet à une liste sont : `in` et `not in`.
@@ -232,6 +189,42 @@ if caract in liste:
 if caract not in liste:
     print(caract, 'n'est pas une voyelle')
 ```
+
+### Applications
+
+> #### 🐍 Application III : Faire soi même
+>
+> 1) Créer une fonction `ajout_fin_element_liste(liste,ele)` avec 2 paramètres : une liste `liste` , à qui on va ajouter l'élément `ele` à la fin de la liste. 
+>
+> Exemple :
+>
+``` 
+>>> ajout_fin_element_liste([1,2,3,4],5)
+[1,2,3,4,5]
+```
+
+>
+> 2) Créer une fonction `ajout_debut_element_liste(liste,ele)` avec 2 paramètres : une liste `liste` , à qui on va ajouter l'élément `ele` au début de la liste. 
+>
+> Exemple :
+>
+``` 
+>>> ajout_debut_element_liste([1,2,3,4],0)
+[0,1,2,3,4]
+```
+
+>
+> 3) Créer une fonction `reduction_de_liste(liste, taille)` avec 2 paramètres : une liste `liste` , à qui on va supprimer un élément à la fois jusqu'à obtenir une liste de taille `taille`. Chacun des éléments de la liste `liste` devra être affiché. Si la taille de la liste est plus petite que taille, on ne fera rien. On **renverra la liste** à la fin de la réduction.
+>
+> Exemple :
+>
+``` 
+>>> reduction_de_liste([1,2,3,4,5], 3)
+5
+4
+[1,2,3]
+```
+>
 
 ### Autres opérations sur les listes
 
@@ -301,4 +294,25 @@ print(echantillon)
 print("liste avant mélange: ", liste)
 shuffle(liste)	# Mélange les éléments de liste.
 print("liste après: ", liste)
+```
+
+### Applications Bonus :
+
+> #### 🐍 Application IV : Pour les plus rapides
+>
+> On peut considérer les entiers binaires comme des listes de taille 8 composées d'entier
+>
+> Exemple :
+>
+``` 
+entier_binaire = [1,1,0,1,0,0,1,1]
+```
+>
+> Écrire une fonction `bin_to_dec(binaire:list[int])` qui prendra une liste d'entier en paramètre et qui retrouvera l'entier en base 10 associé.
+
+> Exemple :
+>
+``` 
+>>> bin_to_dec([1,0,0,1,1])
+19
 ```

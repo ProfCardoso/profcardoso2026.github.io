@@ -6,13 +6,11 @@ title: Initialisation à Python
 
 # Jeu de société
 
-**Objectifs** : Le but de ce tp est de vous faire manipuler les listes grâce à différentes activités.   
+**Objectifs** : Le but de ce tp est de vous faire manipuler les listes grâce à différentes activités/ jeu de société.   
 
 **Attention, sauvegarder correctement ce script python, nous le réutiliserons plus tard.** 
 
 ## Jeux de dés 🎲
-
-On souhaite simuler plusieurs lancer de dés. Lancer cette fonction à chaque fois que vous générer cette page.
 
 1. Créez une fonction `plusieurs_lancer(des)` qui prend en paramètre le nombre de dés et renvoie une liste de valeur de dés.   
 
