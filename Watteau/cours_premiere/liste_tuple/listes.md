@@ -224,7 +224,13 @@ if caract not in liste:
 4
 [1,2,3]
 ```
+> 4) **Filtrer et Compter :**  
+> Voici des fonctions travaillant sur des listes, ainsi que leur documentation :
+> - `nb_occurrences(L, x)` : Renvoie le nombre de fois où `x` apparaît dans la liste `L`.
+> - `indices(L, x)` : Renvoie la liste liste des positions où `x` apparaît dans la liste `L` (par exemple indices([4, 2, 4, 7, 4], 4) renvoie [0, 2, 4]).
+> - `pairs(L)` : Renvoie une nouvelle liste contenant uniquement les éléments pairs de la liste `L`, dans le même ordre.
 >
+> Réécrivez ces fonctions. 
 
 ### Autres opérations sur les listes
 
