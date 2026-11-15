@@ -152,16 +152,21 @@ title: Cours de Première NSI
 
     <a class="boite" href="./projet_2/seance_decouverte_pyxel.html">
     <div >
-      <h3> Seance dévouverte Pyxel</h3>
+      <h3> Seance découverte Pyxel</h3>
     </div>
     </a> 
-    
-    
-<!-- 
-    <a class="boite-projet" href="./projet_2/liste_sujet_consignes.html">
-      <h3>Mini Maze : consignes </h3>
-    </a>
- -->
+
+    <a class="boite" href="./projet_2/seance_2_deplacement.html">
+    <div >
+      <h3> Seance 2 : Déplacement</h3>
+    </div>
+    </a> 
+
+    <a class="boite-tp" href="./projet_2/documentation-pyxel.pdf">
+    <div >
+      <h3> Documentation : Pyxel </h3>
+    </div>
+    </a> 
   </div>
 </div>
 
