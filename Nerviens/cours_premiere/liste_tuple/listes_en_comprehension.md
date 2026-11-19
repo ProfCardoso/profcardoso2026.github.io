@@ -82,9 +82,9 @@ print(M)
 Voici une autre matrice :
 
 ```
-[ [1,4,2], 
-  [2,5,3], 
-  [6,7,3] ]
+m = [ [1,4,2], 
+      [2,5,3], 
+      [6,7,3] ]
 ```
 
 Cette matrice m est de **largeur** de 3 et de **hauteur** 3, et est composée d’entiers. Elle a 3 **lignes** et 3 **colonnes**, organisé comme ceci :  
@@ -128,7 +128,7 @@ li = [["a", "b", "c", "d"],
 >
 > 4) Quel est le contenu de la variable définie par : `v4 = li[1][0]` ?
 >
-> ### Application II : Modification de liste de listes
+> ### 🖋️ Application II : Modification de liste de listes
 >
 > On considère la liste de liste suivante : 
 ```python
@@ -159,8 +159,41 @@ mardi -> tuesday
 ...
 ```
 >
+> ### Application IV : Damier
 >
-> ### Application IV : Le labyrinthe 
+> Vous souhaitez écrire une fonction pour créer des damiers pour plusieurs jeux de plateau, comme les échecs ou les dames. 
+>
+> Ecrire la fonction `damiers(x,y)`, qui prend le nombre de ligne x et de colonne y du damier, et qui renvoi une liste de liste comprenant un enchainement de cases noires (0 ou "N") et blanches (1 ou "B").
+>
+> Exemple :
+>
+```python
+>>> damiers(5,5)
+[[0,1,0,1,0],
+ [1,0,1,0,1],
+ [0,1,0,1,0],
+ [1,0,1,0,1],
+ [0,1,0,1,0]]
+```
+>
+> Vous pourrez tester l'affichage de votre damier grâce à cette bibliothèque python, nommée matplotlib :
+
+```python
+import matplotlib.pyplot as plt
+
+
+def damiers(x,y):
+    pass                               # A remplacer par votre code
+
+damier = damiers(5,5)   		           # Création du damier
+
+plt.imshow(damier, cmap="gray")        # 0 = noir, 1 = blanc
+plt.axis("off")                        # cache les axes
+plt.show()
+```
+
+>
+> ### Application V : Le labyrinthe 
 >
 > On considère la grille de labyrinthe suivante où les 1 correspondent à des murs et les 0 à des passages.
 >
@@ -184,4 +217,32 @@ labyrinthe = [[1, 1, 1, 1, 1, 1, 1, 1, 1],
 ██                
 ██████████████████
 ```
+>
+> Remarque : Ce genre de labyrinthe pourrait vous être utile pour modéliser celui du projet pac man ... 
+>
+> **Bonus :**  
+> a/ Voici le même labyrinthe mais avec un point de départ et d'arrivé : 
+>
+```python
+labyrinthe = [[1, 1, 1, 1, 1, 1, 1, 1, 1],
+              ["D", 0, 0, 0, 0, 0, 0, 0, 1],
+              [1, 1, 1, 0, 1, 1, 1, 0, 1],
+              [1, 0, 0, 0, 1, 0, 0, 0, 1],
+              [1, 0, 1, 1, 1, 1, 1, 1, 1],
+              [1, 0, 0, 0, 0, 0, 0, 0, "A"],
+              [1, 1, 1, 1, 1, 1, 1, 1, 1]]
+```
+> En utilisant le caractère `"D"` et le caractère `"A"`, proposer un script qui affiche proprement le labyrinthe :
+>
+```
+██████████████████
+D               ██
+██████  ██████  ██
+██      ██      ██
+██  ██████████████
+██               A
+██████████████████
+```
+>
+> b/ Ajouter un pion `"P"`, dont le but est d'avancer de la case départ `"D"` à la case arrivé `"A"`. Le pion ne pourra pas marcher sur les murs ( case `"█"` ). Pour ce faire, vous demanderez à l'utilisateur une direction (haut, bas, gauche, droite) tant que le pion n'est pas sorti du labyrinthe.
 >
