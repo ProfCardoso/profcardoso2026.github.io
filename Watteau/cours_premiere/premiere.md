@@ -162,6 +162,12 @@ title: Cours de Première NSI
     </div>
     </a> 
 
+    <a class="boite" href="./projet_2/seance_3_collision.html">
+    <div >
+      <h3> Seance 3 : Collision</h3>
+    </div>
+    </a> 
+
     <a class="boite-tp" href="./projet_2/documentation-pyxel.pdf">
     <div >
       <h3> Documentation : Pyxel </h3>
