@@ -167,3 +167,11 @@ pyxel.run(update, draw)
 ```
 
 1. Affichez les mots "collisions" et "fin" sur l'écran quand le joueur touche les murs ou l'arrivée.
+
+2. Bonus : Ajouter des fonctionnalités pour le faire ressembler à un jeu de course :
+- chronomètre
+- touche reset pour recommencer la  course
+- malus si obstables touchés
+- etc etc ...
+
+**Attention !** Nous allons améliorer ce code durant la prochaine séance, garder le précieusement !
