@@ -97,6 +97,10 @@ title: Cours de Première NSI
       <h3>Les listes en compréhensions et listes de listes</h3>
     </a>
 
+    <a class="boite" href="./liste_tuple/tuples.html">
+      <h3>Les tuples</h3>
+    </a>
+
 <!-- 
 
     <a class="boite-tp" href="./liste_tuple/jeu_societe_correction.html">
@@ -109,9 +113,7 @@ title: Cours de Première NSI
 
     
 
-    <a class="boite" href="./liste_tuple/tuples.html">
-      <h3>Les tuples</h3>
-    </a>
+    
     
     <a class="boite-bonus" href="./liste_tuple/activite_noel.html">
       <h3>🎄 Exercice de Noël bonus 🎄</h3>

@@ -4,6 +4,9 @@ title: Initialisation à Python
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+
+<link rel="stylesheet" href="../../assets/style.css" />
+
 # Les Tuples ( ou n-uplets )
 
 Un tuple est une structure de données **ordonnée** et **immuable**.
@@ -14,7 +17,7 @@ coord = (3, 7)
 info = ("Léo", 17, "Première")
 ```
 
-### Ordonné
+### Ordonnée
 
 Les éléments sont rangés dans un ordre précis : l’index 0, puis 1, puis 2, etc ...
 
@@ -22,11 +25,11 @@ Les éléments sont rangés dans un ordre précis : l’index 0, puis 1, puis 2,
 
 On ne peut pas modifier un tuple une fois qu'il est créé :
 
-- impossible de changer un élément
+- impossible de changer un élément;
 
-- impossible d’en ajouter
+- impossible d’en ajouter;
 
-- impossible de supprimer un élément
+- impossible de supprimer un élément.
 
 ➡️ **Remarques :** Cela en fait un type idéal pour représenter des données fixes, stables, comme des coordonnées, des dates, des couleurs RGB…
 
@@ -140,7 +143,7 @@ Très utile en Python ! On peut extraire les éléments d’un tuple directement
 ```python
 coord = (4, 9)
 x, y = coord
-print(x, y)  # 4 9
+print(x,", ", y)  # 4, 9
 ```
 
 Ou ignorer des valeurs :
